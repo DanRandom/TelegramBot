@@ -47,7 +47,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://serene-falls-89714.herokuapp.com/' + TOKEN)
+    bot.set_webhook(url='https://##########.herokuapp.com/' + TOKEN) #Not a real link, also for privacy
     return "!", 200
 
 
